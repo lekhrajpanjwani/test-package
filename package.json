@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "todo",
@@ -8,13 +8,22 @@
     "kind": "plugin",
     "displayName": "Todo"
   },
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/lekhrajpanjwani/test-package"
+  },
   "dependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi":"^4.0.0"
+  },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Lekhraj Panjwani",
+    "email": "lekhrajpanjwani@live.in"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Lekhraj Panjwani",
+      "email": "lekhrajpanjwani@live.in"
     }
   ],
   "engines": {
